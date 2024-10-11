@@ -3,7 +3,8 @@ import { Mail, Linkedin, ExternalLink } from 'lucide-react';
 
 const PersonalWebpage = () => {
   const [activeTab, setActiveTab] = useState('Web3');
-
+  const email = process.env.REACT_APP_EMAIL 
+  
   const projects = {
     Web3: [
       { name: 'Hi.com', description: 'A cutting-edge fintech platform focused on developing innovative trading solutions, including a Telegram app for in-app trading with up to 1000x leveraged futures trading.', link: 'https://hi.com' },
@@ -30,7 +31,7 @@ const PersonalWebpage = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 mr-3 text-gold" />
-                  <a href="mailto:adrian@adriantroop.com" className="text-lg hover:text-gold transition-colors">adrian@adriantroop.com</a>
+                  <a href={`mailto:${email}`} className="text-lg hover:text-gold transition-colors">Get in touch</a>
                 </div>
                 <div className="flex items-center">
                   <Linkedin className="h-5 w-5 mr-3 text-gold" />
