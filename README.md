@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Personal Webpage Project
 
 ## Overview
