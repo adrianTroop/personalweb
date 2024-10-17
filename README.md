@@ -1,4 +1,3 @@
-cat > README.txt << EOL
 # Personal Webpage Project
 
 ## Overview
