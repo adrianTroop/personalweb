@@ -34,8 +34,6 @@ const PersonalWebpage = () => {
                   <a href={`mailto:${email}`} className="text-lg hover:text-gold transition-colors">Get in touch</a>
                 </div>
                 <div className="flex items-center">
-                  <Linkedin className="h-5 w-5 mr-3 text-gold" />
-                  <a href="https://www.linkedin.com/in/adriantroop/" className="text-lg hover:text-gold transition-colors">LinkedIn Profile</a>
                 </div>
               </div>
             </div>
